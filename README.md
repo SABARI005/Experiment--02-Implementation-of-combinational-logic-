@@ -13,15 +13,27 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 ## Software – Quartus prime
 
 
-## Theory
+## Theory:
+Logic gates are electronic circuits which perform logical functions on one or more inputs to produce one output.
+
+F=((C'.B.A)'(D'.C.A)'(C.B'.A)')'
+
+1.AND gate The AND gate is an electronic circuit that gives a high output (1) only if all its inputs are high. A dot (.) is used to show the AND operation i.e. A.B or can be written as AB Y= A.B
+
+2.OR gate The OR gate is an electronic circuit that gives a high output (1) if one or more of its inputs are high. A plus (+) is used to show the OR operation. Y= A+B
  
 
 ## Logic Diagram
-## Procedure
+## Procedure:
+1.Use module projname(input,output) to start the Verilog programmming. 
+2.Assign inputs and outputs using the word input and output respectively.
+3.Use defined keywords like wire,assign and required logic gates to represent the boolean expression. 
+4.Use each output to represent one for F1 and the other for F2. 5.End the verilog program using keyword endmodule.
 ## Program:
 /*
-Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
+
 ```
+Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
 Developed by: SABARI S
 RegisterNumber: 212222240085 
 
