@@ -27,7 +27,7 @@ RegisterNumber: 212222240085
 
 
 
-module exp2(A,B,C,D,F1);
+```module exp2(A,B,C,D,F1);
 input A,B,C,D;
 output F1;
 wire x1,x2,x3,x4,x5;
@@ -38,6 +38,7 @@ assign x4= (~A) & (B) & (C) & (D);
 assign x5= (B) & (~C) & (D);
 assign F1 = x1 | x2 | x3 | x4 | x5;
 endmodule
+```
 
 
 */
