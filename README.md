@@ -21,14 +21,14 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 ## Program:
 /*
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
-
+```
 Developed by: SABARI S
 RegisterNumber: 212222240085 
 
 
 
 
-```module exp2(A,B,C,D,F1);
+module exp2(A,B,C,D,F1);
 input A,B,C,D;
 output F1;
 wire x1,x2,x3,x4,x5;
